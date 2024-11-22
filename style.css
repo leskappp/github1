@@ -1,0 +1,45 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  width: 30%;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.whatsapp-icon {
+  font-size: 24px;
+  color: #25D366; /* Color de WhatsApp */
+  display: block;
+  margin: 10px 0;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tags span {
+  background: #f0f0f0;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 2px;
+  display: inline-block;
+}
